@@ -4,7 +4,7 @@ metadata:
   name: nfspv1
 spec:
   capacity:
-    storage: 1Gi
+    storage: 1Mi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
