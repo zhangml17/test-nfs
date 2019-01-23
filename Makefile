@@ -11,6 +11,6 @@ deploy:
 
 clean: export OP=delete
 clean:
-	@kubectl ${OP} -f ./pvjob.yaml
-	@kubectl ${OP} -f ./pvc_nfs.yaml
-	@kubect; ${OP} -f ./pv_nfs.yaml
+	-@kubectl ${OP} -f ./pvjob.yaml
+	-@kubectl ${OP} -f ./pvc_nfs.yaml
+	-@kubectl ${OP} -f ./pv_nfs.yaml
